@@ -1,47 +1,89 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Coding Languages</title>
     </head>
 
     <body>
-        <div class="navigation">
-            <h1 id="logo">HighOnCoding</h1>
-                <div id="links">
-                <a href="index.html">Home</a>
-                <a href="categories.html">Categories</a>
-                </div>
-        </div>
-
-       <div id = "categories">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">HighOnCoding</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarSupportedContent"aria-controls="navbarSupportedConten" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             
-            <div class="category-names">
-                Javascript
-                <h6>23 articles</h6>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="categories.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Languages</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="categories.html">Watchkit</a>
+                        <a class="dropdown-item" href="categories.html">Swift</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="index.html">Feature Article</a>
+                    </div>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div id = "languages">
+            <div class="card text-white bg-primary mb-3"                        style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+            </div>
+       
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Primary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>   
             </div>
 
-            <div class="category-names">
-                C#
-                <h6>12 articles</h6>
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
 
-            <div class="category-names">
-                Swift/Objc
-                <h6>34 articles</h6>
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
             </div>
 
-            <div class="category-names">
-                Database
-                <h6>15 articles</h6>
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
             </div>
 
-            <div class="category-names">
-                Python
-                <h6>33 articles</h6>
-            </div>
-
-            <div class="category-names">
-                VB.NET
-                <h6>5 articles</h6>
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
             </div>
         </div>
     </body>

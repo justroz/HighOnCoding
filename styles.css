@@ -1,3 +1,4 @@
+
 body {
     width:960px;
     margin: auto;
@@ -6,39 +7,27 @@ body {
 
 }
 
-.navigation {
-    width: 100%;
-    height:60px;
-    text-align: left;
-    background-color: rgb(131, 188, 245);
+.nav-link {
     color: white;
-    position: relative;
-    padding-bottom: 15px;
-    
 }
 
-#logo {
-    display: inline-block;
-    position: relative;
-    left: 20px;  
+.navbar {
+    background-color: dodgerblue;
 }
 
-#links {
-    display: inline-block;
-    padding-left: 50px;
+.jumbotron {
+    margin-top: 20px;
+    background-color: rgb(169, 183, 197);
 }
 
-#opening {
-    background-color: rgb(195, 195, 195);
-    margin: 25px;
-    margin-bottom: 0px;
-    padding: 15px;
+.jumbotron-fluid {
+    background-color: dodgerblue;
 }
 
-.languages {
-    margin: 0px 25px;
-    padding: 25px;
+.jumbotron-fluid h1 {
+    color:white;
 }
+
 .comments {
     background-color: orange;
     color: white;
@@ -46,27 +35,21 @@ body {
     padding: 3px;
 }
 
-h2 {
-    color: dodgerblue;
+#languages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: white;   
+.card {
+    margin: 10px;
 }
 
-#categories {
-    margin-left:100px;
-}
 
-.category-names {
-    width: 200px;
-    height: 100px;
-    padding: 50px 0px;
-    background-color: rgb(189, 189, 189);
-    display: inline-block;
-    margin: 25px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+
+  }
